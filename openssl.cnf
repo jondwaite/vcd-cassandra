@@ -1,0 +1,13 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
+prompt = yes
+[req_distinguished_name]
+C = NZ
+L = Christchurch
+ST = Canterbury
+O = Home
+OU = Lab
+[v3_req]
+keyUsage = keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth, clientAuth
